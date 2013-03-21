@@ -1,0 +1,78 @@
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {padding: 0;margin: 0;}
+table {border-collapse: collapse;border-spacing: 0;}
+fieldset,img,abbr,acronym{border: 0;}
+address,caption,cite,code,dfn,em,th,var {font-weight: normal;font-style: normal;}
+ol,ul {list-style: none;}
+caption,th {text-align: left;}
+q:before,q:after {content:”;}
+body{background:#fff;font-size:12px;font-family:"SimSun","Arial Narrow";}
+img{vertical-align:middle;}
+a{color:#000; text-decoration:none; cursor:pointer;}
+a:hover{ color:#000;text-decoration:underline;}
+a img {border: none;text-decoration: none;}
+label, button,a {cursor: pointer;}
+.clear {
+    background: none repeat scroll 0 0 #FFFFFF;
+    clear: both;
+    height: 1px;
+}
+p{word-wrap:break-word;}.online {
+    background: #009900;
+
+}
+#onlineListDiv{
+    width: 50px;
+    right: 0;
+    height: 100%;
+    float: right;
+}
+#main{
+    float: left;
+    height: 100%;
+}
+.outline {
+    background: #ff9c2b;
+}
+body{
+    overflow: hidden;
+}
+#messageBar{
+    height: 30px;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+#messageBarElements li{
+    float: left;
+    width: 150px;
+}
+.messageWindow{
+    bottom: 30px;
+    height: 300px;
+    width: 250px;
+    position: absolute;
+    z-index: auto;
+}
+.messageFlow{
+    height: 220px;
+    overflow-y: scroll;
+    background-color: #ff9c2b;
+}
+.messageInputArea{
+    height: 80px;
+    background-color: #99ffeb;
+}
+.messageInput{
+    height: 80px;
+    width: 200px;
+    overflow: hidden;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.messageSub{
+    width: 48px;
+    height: 80px;
+    float: right;
+}
